@@ -147,4 +147,4 @@ Below is a sample output log when running the script:
 2025-01-02 10:00:15 [INFO] All done.
 ```
 ## Support
-If you encounter issues or have questions, feel free to open a GitHub issue or contact the script author.
+If you encounter issues or have questions, feel free to open a GitHub issue or pull request.
