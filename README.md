@@ -4,15 +4,16 @@ This script is designed to verify whether XRP Ledger (XRPL) wallets have the req
 This README is designed for non-developers with no prior experience in coding or Integrated Development Environments (IDEs). It provides clear instructions for setting up and using the script, as well as basic details about how to modify variables to suit your needs.
 
 ## Features
-Trustline Verification: Checks if each wallet in a database has the specified trustline.
-Automatic Retry: Retries failed requests with exponential backoff.
-Failover: Uses multiple XRPL nodes for better reliability.
-Organized Output: Outputs wallets without trustlines to a separate table and retries unverified wallets in a second pass.
-Logging: Detailed logs for tracking progress and errors.
-Prerequisites
-Python Installation: Ensure Python 3.8 or later is installed on your computer. Download Python.
-SQLite Database: The script assumes a pre-existing SQLite database containing a table with wallet addresses and balances.
-Python Libraries: Install the required libraries using the following command:
+- **Trustline Verification:** Checks if each wallet in a database has the specified trustline.
+- **Automatic Retry:** Retries failed requests with exponential backoff.
+- **Failover:** Uses multiple XRPL nodes for better reliability.
+- **Organized Output:** Outputs wallets without trustlines to a separate table and retries unverified wallets in a second pass.
+- **Logging:** Detailed logs for tracking progress and errors.
+
+## Prerequisites
+**Python Installation:** Ensure Python 3.8 or later is installed on your computer. Download Python.
+**SQLite Database:** The script assumes a pre-existing SQLite database containing a table with wallet addresses and balances.
+**Python Libraries:** Install the required libraries using the following command:
 ```bash
 pip install xrpl
 ```
