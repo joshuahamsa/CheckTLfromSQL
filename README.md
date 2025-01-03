@@ -11,9 +11,9 @@ This README is designed for non-developers with no prior experience in coding or
 - **Logging:** Detailed logs for tracking progress and errors.
 
 ## Prerequisites
-**Python Installation:** Ensure Python 3.8 or later is installed on your computer. Download Python.
-**SQLite Database:** The script assumes a pre-existing SQLite database containing a table with wallet addresses and balances.
-**Python Libraries:** Install the required libraries using the following command:
+- **Python Installation:** Ensure Python 3.8 or later is installed on your computer. Download Python.
+- **SQLite Database:** The script assumes a pre-existing SQLite database containing a table with wallet addresses and balances.
+- **Python Libraries:** Install the required libraries using the following command:
 ```bash
 pip install xrpl
 ```
