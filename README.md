@@ -83,7 +83,7 @@ cd /path/to/script
 Run the script:
 ```bash
 
-python xrpl_trustline_checker.py
+python check_tl.py
 ```
 
 ## Script Workflow
